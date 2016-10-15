@@ -15,8 +15,12 @@ Reference: [https://docs.oracle.com/javase/tutorial/jmx/mbeans/standard.html](ht
 2. Run `jconsole` in another terminal.
 
 3. Select the process corresponding to `org.codehaus.plexus.classworlds...` (Make sure not connected to VPN)
-
+   ![JConsole connect](images/1.connect-no-vpn.png)
 4. If there is a warning, choose `Insecure connection`.
 
 5. JMX should show the following:
+   
+   ![JConsole Overview](images/2.jconsole-overview.png)
+   
+   ![MBeans in JConsole](images/3.jconsole-mbeans.png)
 
